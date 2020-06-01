@@ -1,0 +1,25 @@
+{
+  "name": "open-diary-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource": "^0.7.0",
+    "apollo-datasource-rest": "^0.9.0",
+    "apollo-server": "^2.13.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.21.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "mongoose-paginate-v2": "^1.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
+}
