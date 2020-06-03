@@ -19,7 +19,7 @@ const server = new ApolloServer({
   resolvers,
   context: ({ req }) => ({
     user: authenticate(req)
-  })
+  }),
 })
 
 server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
