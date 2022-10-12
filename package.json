@@ -6,7 +6,7 @@
   "dependencies": {
     "apollo-datasource": "^0.7.0",
     "apollo-datasource-rest": "^0.9.0",
-    "apollo-server": "^2.13.0",
+    "apollo-server": "^2.25.4",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
